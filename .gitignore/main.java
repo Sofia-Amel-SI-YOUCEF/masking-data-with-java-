@@ -37,11 +37,11 @@ public class CSVReader {
 
     public static void main(String[] args) throws IOException {
 
-        String csvFile = "C:\\Users\\sasi-youcef\\Documents\\DSO-PRED-PND\\DataPND.test.csv";
+        String csvFile = "C:\\Users\\Documents\\Data.test.csv";
         String line = "";
         String cvsSplitBy = ",";
         String currentWord ="";
-        String exportedFile = "C:\\Users\\sasi-youcef\\Documents\\DSO-PRED-PND\\MaskedDataPND1.test.csv";
+        String exportedFile = "C:\\Users\\Documents\\MaskedData.test.csv";
         FileWriter writer = null;
         
 		 writer = new FileWriter(exportedFile);
@@ -65,7 +65,7 @@ public class CSVReader {
                 	
                 	
                 	/*
-                	if(i == dataPND.length -1)
+                	if(i == data.length -1)
                 		System.out.println();
                 		*/
                 	
